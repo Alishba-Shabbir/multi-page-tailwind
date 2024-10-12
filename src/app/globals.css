@@ -1,0 +1,352 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header styling */
+.header {
+  background-color: ivory; /* Ivory background */
+  padding: 20px; /* Spacing around the header */
+  display: flex; /* Using flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+ -webkit-box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);
+  box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);;
+}
+
+/* Logo styling */
+.header h1 {
+  font-family: 'Arial', sans-serif; /* Font style for the restaurant name */
+  color: #fd990d; /* Gold color for the restaurant name */
+  margin: 0; /* Remove default margin */
+  font-size: 2.8rem; /* Increase size for prominence */
+  text-shadow: 4px 14px 10px rgba(104, 83, 44, 1);
+}
+/* Navigation styling */
+.header ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for horizontal layout */
+
+}
+
+/* List item styling */
+.header li {
+  margin:0 60px; /* Spacing between menu items */
+  font-family: 'Arial', sans-serif; /* Font style for menu items */
+  color:rgb(33, 30, 30); /* Slate blue color for menu items */
+  cursor: pointer; /* Change cursor on hover */
+  transition: color 2s; /* Smooth transition for hover effect */
+  font-size: 18px;
+
+}
+
+/* Hover effect for list items */
+.header li:hover {
+  color: #FFD700; /* Change color to gold on hover */
+}
+.paragraph{
+    color:  #f4e071;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 200px;
+    background-color: black;
+    font-family: "fantasy";
+    padding-left: 20px;
+    text-shadow: 4px 14px 10px rgb(239, 184, 74);
+}
+.picture-header{
+  padding-left: 950px;
+  padding-top: 2px;
+  /* margin-bottom: 20px; */
+  background-color: rgb(4, 4, 4);
+}
+.footer{
+  background-color: #f9a804;
+  color: black; 
+  padding-top: 0;
+  height: 100px;
+
+}
+.footer-buttons{
+  padding: 30px;
+  gap: 350px;
+  font-family: 'Arial', sans-serif; /* Font style for menu items */
+  color:rgb(33, 30, 30); /* Slate blue color for menu items */
+  cursor: pointer; /* Change cursor on hover */
+  transition:  color 3s;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+}
+.footer-buttons :hover{
+  color: gold;
+}
+.footer h3 :hover{
+  color: gold;
+  color: rgb(9, 0, 0);
+}
+h3{
+  font-weight: 300px;
+  font-size: 30px;
+  text-shadow: 4px 14px 10px rgb(6, 4, 0);
+}
+.parent-container{
+  height: 360px;
+  border: 1px rgb(8, 8, 8) solid;
+  width :300px;
+  background-color: rgb(164, 165, 165);
+  margin: 30px;
+  padding: 15px;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-shadow: -7px 4px 17px -11px rgba(154, 153, 153, 0.75);
+-moz-box-shadow: -7px 4px 17px -11px rgba(175, 173, 173, 0.75);
+box-shadow: -7px 4px 17px -11px rgba(247, 245, 245, 0.75);
+ 
+}
+.parent-container:hover{
+border: 3px solid gold;
+transition-duration: 0.5  ease;
+ -webkit-box-shadow: -7px 4px 45px -11px rgba(248, 234, 152, 0.75);
+-moz-box-shadow: -7px 4px 45px -11px rgba(253, 210, 122, 0.75);
+box-shadow: -7px 4px 45px -11px rgba(247, 210, 74, 0.75);
+
+}
+.child-container{
+
+  /* background-color: #f4abdc; */
+   padding: 3px; 
+   padding-bottom: 10px;
+  /* border-radius: 20px;
+  margin-bottom: 10px;  */
+}
+h5{
+  color:black;
+  font-size: 30px;
+  font-weight: 100px;
+}
+h1{
+  font-size: 80px;
+  font-weight: 100px;
+  text-align: center;
+  color: rgb(43, 43, 38);
+  text-shadow: 4px 14px 10px rgb(44, 43, 41);
+}
+.about{
+  font-size: 30px;
+  font-weight: 100px;
+  background-color: #cdcdcc;
+}
+.content{
+  background-color:black;
+ 
+}
+.content h1{
+  font-size: 80px;
+  font-weight: 100px;
+  text-align: center;
+  color: ivory;
+  text-shadow: 4px 14px 10px rgb(171, 170, 170);
+}
+.breakfast-menu {
+  padding: 20px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+.lunch-menu {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.dinner-menu {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.policy{
+  padding: 20px;
+   max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* General reset for responsive design */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px; /* Base font size for easy scaling */
+}
+
+/* Header styling */
+.header {
+  background-color: ivory;
+  padding: 1.25rem; /* Use relative units */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);
+  box-shadow: 8px 1px 27px 4px rgba(66, 68, 90, 1);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  text-shadow: 4px 14px 10px rgba(104, 83, 44, 1);
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header li {
+  margin: 0 2rem;
+  font-size: 1.125rem; /* Use relative size */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.header li:hover {
+  color: #FFD700;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .header ul {
+    flex-direction: column;
+  }
+
+  .header li {
+    margin: 0.5rem 0;
+  }
+
+  .paragraph {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  
+  .picture-header {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .parent-container {
+    width: 100%; /* Full width on small screens */
+    margin: 10px 0;
+  }
+}
+
+
+
+
+/* General reset for responsive design */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles for header */
+.header {
+  background-color: ivory;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #fd990d;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header li {
+  margin: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header li:hover {
+  color: #FFD700;
+}
+
+/* Smaller screen adjustments */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header h1 {
+    margin-bottom: 1rem;
+  }
+
+  .header ul {
+    flex-direction: column;
+  }
+
+  .header li {
+    margin: 0.5rem 0;
+  }
+}
+.footer{
+  flex-direction: column;
+  text-align: center;
+}
