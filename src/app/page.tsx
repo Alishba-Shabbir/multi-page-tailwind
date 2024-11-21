@@ -11,6 +11,7 @@ import desserts from "../app/public/desserts.jpg";
 import icecreams from "../app/public/icecreams.jpg";
 import chinese from "../app/public/chinese.jpg";
 
+
 export default function Home() {
   return (
     <div className="bg-black text-white p-4">
